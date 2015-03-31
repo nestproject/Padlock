@@ -13,7 +13,7 @@ pod '🔒'
 ## Usage
 
 ```swift
-import 🔒
+import Padlock
 
 func application(env:Request) -> (Response) {
   return ("200 OK", [], "Hello World")
