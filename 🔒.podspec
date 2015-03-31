@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = '🔒'
-  spec.version = '0.1.0'
+  spec.version = '0.1.1'
   spec.summary = 'Nest middleware to 🔒 up your web application in HTTP auth.'
   spec.homepage = 'https://github.com/nestproject'
   spec.license = { :type => 'BSD', :file => 'LICENSE' }
