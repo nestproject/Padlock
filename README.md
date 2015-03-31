@@ -2,7 +2,7 @@
 
 Nest example middleware to wrap your web application in HTTP auth.
 
-**NOTE**: *This is also the very first published Pod to use emoji as it's name.*
+**NOTE**: *This is also the very first published Pod to use emoji as its name.*
 
 ## Installation
 
