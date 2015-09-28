@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0033B58E7250EF6A6C38CE06 /* Pods_PadlockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A0479C4CB87995E44922A6 /* Pods_PadlockTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		27E852631ACA18FB00D4D3EA /* Padlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E852621ACA18FB00D4D3EA /* Padlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27E852691ACA18FB00D4D3EA /* Padlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E8525D1ACA18FB00D4D3EA /* Padlock.framework */; };
 		27E852701ACA18FB00D4D3EA /* PadlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8526F1ACA18FB00D4D3EA /* PadlockTests.swift */; };
 		27E8527A1ACA1AB300D4D3EA /* Padlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E852791ACA1AB300D4D3EA /* Padlock.swift */; };
+		9124EC3074DA5C42BE2D9C1F /* Pods_Padlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7761A89C881FA0D78C7E0C5 /* Pods_Padlock.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,12 @@
 		27E8526E1ACA18FB00D4D3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E8526F1ACA18FB00D4D3EA /* PadlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadlockTests.swift; sourceTree = "<group>"; };
 		27E852791ACA1AB300D4D3EA /* Padlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padlock.swift; sourceTree = "<group>"; };
+		71D4D4075E72BB8427417689 /* Pods-PadlockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadlockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PadlockTests/Pods-PadlockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E30F7C844C67685AEDF8007 /* Pods-Padlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Padlock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Padlock/Pods-Padlock.release.xcconfig"; sourceTree = "<group>"; };
+		9E153A9863D3E66A4FF80974 /* Pods-PadlockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadlockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PadlockTests/Pods-PadlockTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9A0479C4CB87995E44922A6 /* Pods_PadlockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PadlockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33A8F6C1326884D8975F54D /* Pods-Padlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Padlock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Padlock/Pods-Padlock.debug.xcconfig"; sourceTree = "<group>"; };
+		E7761A89C881FA0D78C7E0C5 /* Pods_Padlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Padlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9124EC3074DA5C42BE2D9C1F /* Pods_Padlock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +55,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E852691ACA18FB00D4D3EA /* Padlock.framework in Frameworks */,
+				0033B58E7250EF6A6C38CE06 /* Pods_PadlockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120C76EE01A72B3241AF805C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D33A8F6C1326884D8975F54D /* Pods-Padlock.debug.xcconfig */,
+				8E30F7C844C67685AEDF8007 /* Pods-Padlock.release.xcconfig */,
+				71D4D4075E72BB8427417689 /* Pods-PadlockTests.debug.xcconfig */,
+				9E153A9863D3E66A4FF80974 /* Pods-PadlockTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		174D1A1BB47662DE2F1D6EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7761A89C881FA0D78C7E0C5 /* Pods_Padlock.framework */,
+				C9A0479C4CB87995E44922A6 /* Pods_PadlockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27E852531ACA18FB00D4D3EA = {
 			isa = PBXGroup;
 			children = (
 				27E8525F1ACA18FB00D4D3EA /* Padlock */,
 				27E8526C1ACA18FB00D4D3EA /* PadlockTests */,
 				27E8525E1ACA18FB00D4D3EA /* Products */,
+				120C76EE01A72B3241AF805C /* Pods */,
+				174D1A1BB47662DE2F1D6EE1 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -125,10 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E852731ACA18FB00D4D3EA /* Build configuration list for PBXNativeTarget "Padlock" */;
 			buildPhases = (
+				00CC6228A0022EA36E64D00B /* Check Pods Manifest.lock */,
 				27E852581ACA18FB00D4D3EA /* Sources */,
 				27E852591ACA18FB00D4D3EA /* Frameworks */,
 				27E8525A1ACA18FB00D4D3EA /* Headers */,
 				27E8525B1ACA18FB00D4D3EA /* Resources */,
+				8F10CD9193EB59687F056F30 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27E852761ACA18FB00D4D3EA /* Build configuration list for PBXNativeTarget "PadlockTests" */;
 			buildPhases = (
+				5C15148821C79A8235427FD3 /* Check Pods Manifest.lock */,
 				27E852641ACA18FB00D4D3EA /* Sources */,
 				27E852651ACA18FB00D4D3EA /* Frameworks */,
 				27E852661ACA18FB00D4D3EA /* Resources */,
+				3B8DCEF062830B1B1F333E3A /* Embed Pods Frameworks */,
+				5CC0E13CB04E0B828DA60857 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +200,7 @@
 		27E852541ACA18FB00D4D3EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Cocode;
 				TargetAttributes = {
@@ -208,6 +246,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CC6228A0022EA36E64D00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8DCEF062830B1B1F333E3A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadlockTests/Pods-PadlockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C15148821C79A8235427FD3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC0E13CB04E0B828DA60857 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadlockTests/Pods-PadlockTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F10CD9193EB59687F056F30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Padlock/Pods-Padlock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27E852581ACA18FB00D4D3EA /* Sources */ = {
@@ -320,6 +436,7 @@
 		};
 		27E852741ACA18FB00D4D3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33A8F6C1326884D8975F54D /* Pods-Padlock.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -339,6 +456,7 @@
 		};
 		27E852751ACA18FB00D4D3EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E30F7C844C67685AEDF8007 /* Pods-Padlock.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -357,6 +475,7 @@
 		};
 		27E852771ACA18FB00D4D3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D4D4075E72BB8427417689 /* Pods-PadlockTests.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,6 +494,7 @@
 		};
 		27E852781ACA18FB00D4D3EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E153A9863D3E66A4FF80974 /* Pods-PadlockTests.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
